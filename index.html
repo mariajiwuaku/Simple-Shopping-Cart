@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Simple Javascript Shopping Cart Example</title>
+    
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+      
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Simple Javascript Shopping Cart Example</h1>
+ <p>A simple shopping cart using jQuery with local storage.</p>
+
+
+ </header>
+  
+      
+ <main>
+     
+ <div class="app">
+<div class="closewindow">
+<span>x</span>
+</div>
+ 	<h2>Cart Details</h2>
+     	<i class="fa fa-shopping-basket fa-3x" aria-hidden="true"></i>
+    <p>You have choose the following items.</p>
+  <div class="tooltipshop">Не вписан артикул</div>
+  <div class="tooltipshop2">Выберите товар</div>
+ 	<div class="app-body">
+ 		<ul class="list"> 			
+ 		</ul>
+ 	</div>
+    <div class="openpopup">
+Check out
+</div>
+ <div class="openpopup2">
+Clear Cart
+</div>
+ </div>
+  <div class="b-popup" id="popup1">
+    <div id="contactform">
+<div class="closepopup">
+x
+</div>
+<h2 class="usertitle">Signup Form</h2>
+       <i class="fa fa-user-circle fa-5x" aria-hidden="true"></i>
+    <form>
+ 		<input id="inputname" type="text" placeholder="Username" >
+        <input id="inputemail" type="text" placeholder="Email">
+        <input id="inputtel" type="text" placeholder="Password" >
+        <button type="button" id="send" onClick="functionform" action="#">Check out</button>
+ 	</form>
+    </div>
+ </div>
+  <div id="tray">
+  <div class="count">
+  
+  </div>
+<i class="fa fa-shopping-basket fa-2x" aria-hidden="true"></i>
+ </div>
+     
+     <h2> Choose products to add in your cart.</h2>
+     
+ <div id="market">
+     
+ <div class="items product">
+     <img src="img/img3.jpg">
+ </div>
+ <div class="items product">
+     <img src="img/img2.jpg">
+</div>
+ <div class="items product">
+     <img src="img/img1.jpg">
+</div>
+<div class="items product">
+    <img src="img/img4.jpg">
+</div><div class="items product">
+    <img src="img/img5.jpg">
+</div>
+ </div>
+     
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+        
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+ <script  src="./js/script.js"></script>
+      
+  </body>
+</html>
